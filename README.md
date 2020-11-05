@@ -10,11 +10,11 @@
 
 首先使用 **Time Profiler** 定位到卡顿的位置是在`LayerImageProvider`的`reloadImages()`这个函数（这是用来加载动画的资源图片）
 
-![动画文件结构](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image1.jpg)
+![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image1.jpg)
 
 因为我们项目的礼物动画是会用到本地图片的，需要使用`AnimationView(animation:, imageProvider:)`方式创建动画，指定资源路径：
 
-![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image2.jpg)
+![动画文件结构](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image2.jpg)
 
 而`reloadImages`内部通过循环调用`imageProvider.imageForAsset(asset:)`来加载的，再点进去看看详细的代码：
 ![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image3.jpg)
@@ -97,4 +97,6 @@ func startAnimation() {
 
 ![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image6.jpg)
 
-到此为止最棘手的问题算是解决了，这个内存暴增的问题是我们公司iOS大佬发现的，十分感激他，以后要多向他学习。
+到此为止最棘手的问题算是解决了~
+
+**特别声明：这个内存暴增的问题是我们公司iOS大佬发现的，十分感激他，以后要多向他学习。**
