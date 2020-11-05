@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C9AFC56D-01C5-4C32-96B2-B6A9FD5B97E7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "044D922D-854A-4C0D-94D0-EC1DC76BD2EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(name:bundle:imageProvider:animationCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "371839A8-B295-40CF-89A0-EBFAA2D16AD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(filePath:imageProvider:animationCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8195A36-9C57-459C-9755-A83E04074043"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "init(url:imageProvider:closure:animationCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADDA6336-1B98-4FC4-8BA7-FC556F23BED5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "init(url:imageProvider:closure:animationCache:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ADDA6336-1B98-4FC4-8BA7-FC556F23BED5 - 8cf7af734159559e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lottie.AnimationView.__allocating_init(url: Foundation.URL, imageProvider: Swift.Optional&lt;Lottie.AnimationImageProvider&gt;, closure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; (), animationCache: Swift.Optional&lt;Lottie.AnimationCacheProvider&gt;) -&gt; Lottie.AnimationView"
+                  moduleName = "Lottie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoujianping/Desktop/LottieDemo/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "936">
+               </Location>
+               <Location
+                  uuid = "ADDA6336-1B98-4FC4-8BA7-FC556F23BED5 - bca66c63f2798a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Lottie.Animation&gt;) -&gt; () in Lottie.AnimationView.init(url: Foundation.URL, imageProvider: Swift.Optional&lt;Lottie.AnimationImageProvider&gt;, closure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; (), animationCache: Swift.Optional&lt;Lottie.AnimationCacheProvider&gt;) -&gt; Lottie.AnimationView"
+                  moduleName = "Lottie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoujianping/Desktop/LottieDemo/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EEE864D-84E6-484D-995F-72598A1BD36B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "init(url:imageProvider:closure:animationCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "484783EC-8E61-45BE-8FCB-C0F9DA19CC7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/lottie-ios/lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "reloadImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
