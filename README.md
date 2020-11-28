@@ -6,6 +6,8 @@
 
 最近公司有个需求是要在直播房间内播放一个礼物动画，用的是 **Lottie**，但是播放动画时，会卡个两秒，这种体验是十分不好的，另外播放期间内存会暴增至900+M，非常危险！必须得解决这个问题。
 
+**PS：这个内存暴增的问题是公司的iOS大佬发现的，十分感激他，小弟仅在此作一个总结。**
+
 ![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image0.jpg)
 
 首先使用 **Time Profiler** 定位到卡顿的位置是在`LayerImageProvider`的`reloadImages()`这个函数（这是用来加载动画的资源图片）
@@ -98,5 +100,3 @@ func startAnimation() {
 ![](https://github.com/Rogue24/JPCover/raw/master/AsyncCacheLottieAnimation/image6.jpg)
 
 到此为止最棘手的问题算是解决了~
-
-**特别声明：这个内存暴增的问题是我们公司iOS大佬发现的，十分感激他，以后要多向他学习。**
